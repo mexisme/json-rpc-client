@@ -2,7 +2,11 @@
 
 This is a simple JSON-RPC client, using Faraday & Typhoeus (by default).
 
-The 
+Why Faraday?  Because it abstracts several other network-api's successfully, and allows a Rack-like middleware layer,
+which allows automatic data-conversion, error-handling, logging, etc.
+
+Currently, we only use the middleware for encode/decode data to JSON, but the plan is convert this to a Faraday
+middleware in the near-term (see `TODO.org`) -- the rough framework for this is already there.
 
 ## Installation
 
