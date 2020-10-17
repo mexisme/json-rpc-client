@@ -33,7 +33,7 @@ Gem::Specification.new do |spec|
   spec.add_runtime_dependency "faraday_middleware"
   spec.add_runtime_dependency "multi_json"
 
-  spec.add_development_dependency "bundler", "~> 2.1.4"
+  spec.add_development_dependency "bundler", "~> 1"
   spec.add_development_dependency "rake", "~> 12"
   spec.add_development_dependency "rspec", "~> 3.9"
   spec.add_development_dependency "simplecov", "~> 0.19"
